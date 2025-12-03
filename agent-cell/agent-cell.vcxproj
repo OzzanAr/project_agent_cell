@@ -136,7 +136,7 @@
     <ClCompile Include="agent-cell.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="simulationConfig.h" />
+    <ClInclude Include="config.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

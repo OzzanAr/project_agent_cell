@@ -33,6 +33,7 @@ namespace Config {
     // Simulation
     constexpr int TARGET_FPS = 60;
     constexpr int STEPS_PER_FRAME = 1; // Speed control
-	constexpr int WINDOW_WIDTH = 1200;
+    constexpr int WINDOW_WIDTH = 1200;
     constexpr int WINDOW_HEIGHT = 960;
 }
+
