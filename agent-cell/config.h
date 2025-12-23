@@ -6,6 +6,9 @@ namespace Config {
     constexpr int GRID_HEIGHT = 100;
     constexpr int CELL_SIZE = 8; // pixels
 
+    // ECS Values
+    constexpr int MAX_COMPONETS = 10;
+
     // Initial populations
     constexpr int INITIAL_GRASS = 2000;
     constexpr int INITIAL_RABBITS = 50;

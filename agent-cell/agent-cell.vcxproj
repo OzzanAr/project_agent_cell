@@ -134,9 +134,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="agent-cell.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="entityManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="component.h" />
     <ClInclude Include="config.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="entityManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
