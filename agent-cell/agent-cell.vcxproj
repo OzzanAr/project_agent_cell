@@ -138,10 +138,10 @@
     <ClCompile Include="entityManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="component.h" />
-    <ClInclude Include="config.h" />
-    <ClInclude Include="entity.h" />
-    <ClInclude Include="entityManager.h" />
+    <ClInclude Include="component.hpp" />
+    <ClInclude Include="config.hpp" />
+    <ClInclude Include="entity.hpp" />
+    <ClInclude Include="entityManager.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

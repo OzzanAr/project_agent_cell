@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <string>
 #include <iostream>
-#include "config.h"
+#include "config.hpp"
 
 int main() {
 	InitWindow(Config::WINDOW_WIDTH, Config::WINDOW_HEIGHT, "Agent Cell");

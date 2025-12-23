@@ -4,8 +4,8 @@
 #include <iostream>
 #include <array>
 
-#include "entity.h"
-#include "config.h"
+#include "entity.hpp"
+#include "config.hpp"
 
 class EntityManager {
 public:
