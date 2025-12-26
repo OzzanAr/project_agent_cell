@@ -8,6 +8,7 @@ namespace Config {
 
     // ECS Values
     constexpr int MAX_COMPONETS = 10;
+    constexpr int MAX_ENTITIES = 50;
 
     // Initial populations
     constexpr int INITIAL_GRASS = 2000;
