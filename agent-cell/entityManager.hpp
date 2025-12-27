@@ -34,6 +34,12 @@ public:
 		--mLivingEntityCount;
 	}
 
+	void SetSignature(Entity entity, Signature signature) {
+		assert(entity < Config::MAX_ENTITIES && "Entity out of range.");
+
+		mSignatures[entity] = signature;
+	}
+
 	Signature GetSignature(Entity entity) {
 		assert(entity < Config::MAX_ENTITIES && "Entity out of range.");
 		
